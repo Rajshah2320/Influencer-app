@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/videoview"
+        android:layout_height="150dp"
+        android:padding="10dp"
+        android:src="@drawable/video"
+        android:layout_margin="10dp"
+        ></ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/videoview"
+        android:text="Status : Accepted"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/status_tv"
+        ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/status_tv"
+            android:layout_margin="5dp"
+            android:text="Earnings : Rs. 2500"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/earning_tv"
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/earning_tv"
+            android:layout_margin="5dp"
+            android:text="Submitted on 12/03/2020 "
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/submission_tv"
+            ></TextView>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

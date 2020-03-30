@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/dummy_profile"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_person_black_24dp"
+                android:padding="10dp"
+                android:layout_margin="10dp"></de.hdodenhof.circleimageview.CircleImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dummy_name"
+                android:layout_below="@+id/dummy_profile"
+                android:layout_margin="5dp"
+                android:text="Name : Dummy Profile"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dummy_email"
+                android:layout_below="@+id/dummy_name"
+                android:layout_margin="5dp"
+                android:text="Email : dummyprofile@gmail.com"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                ></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dummy_number"
+                android:layout_below="@+id/dummy_email"
+                android:layout_margin="5dp"
+                android:text="Number : 12345678"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dummy_dob"
+                android:layout_below="@+id/dummy_number"
+                android:layout_margin="5dp"
+                android:text="DOB : 12/04/1996"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dummy_vid"
+                android:layout_below="@+id/dummy_dob"
+                android:layout_margin="5dp"
+                android:text="Total videos : 32"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                ></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dummy_earning"
+                android:layout_below="@+id/dummy_vid"
+                android:layout_margin="5dp"
+                android:text="Earnings this month : Rs.3000"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dummy_mearning"
+                android:layout_below="@+id/dummy_earning"
+                android:layout_margin="5dp"
+                android:text="Earnings this year : Rs.53000"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                ></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dummy_learning"
+                android:layout_below="@+id/dummy_mearning"
+                android:layout_margin="5dp"
+                android:text="Total Earnings : Rs.123000"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimary"
+                ></TextView>
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

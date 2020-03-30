@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="10dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/video"
+        android:id="@+id/video_view"></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/path_tv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:textSize="20dp"
+        android:text="File not selected"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/video_view"></TextView>
+
+    <Button
+        android:id="@+id/select_btn"
+        android:layout_width="236dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/path_tv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_shape"
+        android:text="SELECT VIDEO"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/sub_btn"
+        android:layout_width="236dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/select_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_shape"
+        android:text="SUBMIT"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
